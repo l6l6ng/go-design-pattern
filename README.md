@@ -32,7 +32,7 @@
 > [迭代器模式](/behavioral/iterator)、
 > [责任链模式](/behavioral/chain)、
 > [命令模式](/behavioral/command)、
-> 备忘录模式、
+> [备忘录模式](/behavioral/snapshot)、
 > 状态模式、
 > [访问者模式](/behavioral/visitor)、
 > [中介者模式](/behavioral/mediator)、
