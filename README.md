@@ -35,5 +35,5 @@
 > 备忘录模式、
 > 状态模式、
 > [访问者模式](/behavioral/visitor)、
-> 中介者模式、
+> [中介者模式](/behavioral/mediator)、
 > 解释器模式
