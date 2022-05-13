@@ -27,7 +27,7 @@
 >
 > **行为型模式** 共十一种：
 > [策略模式](/behavioral/strategy)、
-> 模板方法模式、
+> [模板方法模式](/behavioral/template)、
 > [观察者模式](/behavioral/observer)、
 > [迭代器模式](/behavioral/iterator)、
 > [责任链模式](/behavioral/chain)、
