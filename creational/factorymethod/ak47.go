@@ -1,13 +1,13 @@
-package factorymethod
+package main
 
-type ak47 struct {
-	gun
+type Ak47 struct {
+	Gun
 }
 
-func newAk47() iGun {
-	return &ak47{
-		gun:gun{
-			name: "AK47 gun",
+func NewAk47() IGun {
+	return &Ak47{
+		Gun: Gun{
+			name:  "AK47 gun",
 			power: 4,
 		},
 	}

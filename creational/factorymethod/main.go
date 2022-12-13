@@ -1,11 +1,8 @@
-package factorymethod
+package main
 
-import (
-	"fmt"
-	"testing"
-)
+import "fmt"
 
-func TestFactory(t *testing.T) {
+func main() {
 	ak47, _ := getGun("ak47")
 	musket, _ := getGun("musket")
 
@@ -13,9 +10,9 @@ func TestFactory(t *testing.T) {
 	printDetails(musket)
 }
 
-func printDetails(g iGun) {
+func printDetails(g IGun) {
 	fmt.Printf("Gun: %s", g.getName())
 	fmt.Println()
-	fmt.Printf("Power: %d", g.getPower())
+	fmt.Printf("power: %d", g.getPower())
 	fmt.Println()
 }

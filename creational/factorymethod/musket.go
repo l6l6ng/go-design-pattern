@@ -1,13 +1,13 @@
-package factorymethod
+package main
 
 type musket struct {
-	gun
+	Gun
 }
 
-func newMusket() iGun {
+func newMusket() IGun {
 	return &musket{
-		gun: gun{
-			name:  "Musket gun",
+		Gun: Gun{
+			name:  "musket gun",
 			power: 1,
 		},
 	}
