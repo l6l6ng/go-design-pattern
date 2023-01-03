@@ -11,19 +11,19 @@ type Builder interface {
 	Part3()
 }
 
-type Director struct {
+type Director1 struct {
 	builder Builder
 }
 
-// NewDirector ...
-func NewDirector(builder Builder) *Director {
-	return &Director{
+// NewDirector1 ...
+func NewDirector1(builder Builder) *Director1 {
+	return &Director1{
 		builder: builder,
 	}
 }
 
 // Construct Product
-func (d *Director) Construct() {
+func (d *Director1) Construct() {
 	d.builder.Part1()
 	d.builder.Part2()
 	d.builder.Part3()
